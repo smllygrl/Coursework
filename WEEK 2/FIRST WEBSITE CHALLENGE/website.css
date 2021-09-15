@@ -1,0 +1,142 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 60px 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    "artist-head artist-head artist-head book-head"
+    "am mr mr pf"
+    "la blank soad pf";
+}
+
+.artist-head {
+  grid-area: artist-head;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.book-head {
+  grid-area: book-head;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+/* Arctic Monkeys */
+.am {
+  grid-area: am;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.amtext {
+  font-size: smaller;
+}
+
+.amimg {
+  margin: 5px;
+}
+
+/* Marc Rebillet */
+.mr {
+  grid-area: mr;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.mrimg {
+  /* make images appear bottom right and left */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.mr > p {
+  font-size: smaller;
+}
+
+/* Paulo Freire */
+.pf {
+  grid-area: pf;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.pfimg {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: center;
+}
+
+/* Lily Allen */
+.la {
+  grid-area: la;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.laimg {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  align-content: center;
+  justify-content: center;
+  font-size: smaller;
+  text-align: center;
+}
+
+.lah4 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+/* GDSH */
+.blank {
+  grid-area: blank;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.blankimg {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  font-size: smaller;
+  align-items: flex-end;
+}
+
+.blankimg > ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  font-size: smaller;
+  align-items: flex-end;
+}
+
+/* System of a Down */
+.soad {
+  grid-area: soad;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.soadimg {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 5px;
+}

@@ -1,0 +1,47 @@
+main {
+  display: flex;
+  border: 2px dotted black;
+  height: 275px;
+  width: 900px;
+  align-content: center;
+  justify-content: center;
+}
+
+.all-cards {
+  display: flex;
+  border: 2px dotted black;
+  height: 275px;
+  width: 900px;
+  justify-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  justify-content: center;
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.orange-card {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+}
+
+#pinkCard {
+  background-color: hotpink;
+  height: 50px;
+  width: 100px;
+}
+
+#redCard {
+  background-color: red;
+  height: 150px;
+  width: 100px;
+}

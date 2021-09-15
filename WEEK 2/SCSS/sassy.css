@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.nav__first {
+  justify-content: space-between;
+  background-color: #ffe4c4;
+}
+.nav__first--right-group {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  border: none;
+}
+.nav__second {
+  justify-content: space-around;
+  background-color: #f5deb3;
+}
+.nav__third {
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  background-color: #e6e6fa;
+}
+.nav__third--left-group {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  border: none;
+}
+.nav__home {
+  color: #570861;
+}
+.nav__home:hover {
+  background-color: #65ff00;
+}
+.nav__link {
+  color: #654321;
+}

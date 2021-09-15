@@ -1,0 +1,25 @@
+.card {
+  border: 2px solid black;
+}
+
+.card__title {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card__dt {
+  text-decoration: underline;
+}
+
+.card__dt--red {
+  color: red;
+}
+
+.section__p {
+  color: brown;
+}
+
+.section__p--coral {
+  color: coral;
+  font-weight: bold;
+}

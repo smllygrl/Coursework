@@ -1,0 +1,55 @@
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.grid-item1 {
+  background-color: bisque;
+  grid-row-start: 2;
+}
+
+.grid-item2 {
+  background-color: blueviolet;
+  grid-row-start: 3;
+}
+
+.grid-heading {
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-areas:
+    "one one two"
+    "three image two"
+    "three four four";
+  gap: 10px;
+}
+
+.one {
+  background-color: aqua;
+  grid-area: one;
+}
+
+.two {
+  background-color: burlywood;
+  grid-area: two;
+}
+
+.three {
+  background-color: coral;
+  grid-area: three;
+}
+
+.four {
+  background-color: pink;
+  grid-area: four;
+}
+
+.image {
+  grid-area: image;
+}

@@ -1,0 +1,24 @@
+.main--list-items {
+  list-style-type: none;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+.main--list-items__emphasise {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.main--list-items__muted {
+  text-decoration: none;
+  color: gray;
+}
+
+.main--list-items__plain {
+  text-decoration: none;
+}
+
+.main--list-items__blue {
+  text-decoration: none;
+  color: blue;
+}

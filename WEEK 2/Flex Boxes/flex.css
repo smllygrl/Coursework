@@ -1,0 +1,81 @@
+/* attributes to flex boxes only influence children of that box */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* the flex container is centered */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  border: 2px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.col {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  flex-direction: column-reverse;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+/* the p inside card classes are justified and aligned */
+
+#blueCard {
+  background-color: powderblue;
+}
+
+#orangeCard {
+  background-color: orange;
+}
+
+#pinkCard {
+  background-color: hotpink;
+}
+
+#redCard {
+  background-color: red;
+}
+
+#greenCard {
+  background-color: seagreen;
+}
+
+#purpleCard {
+  background-color: purple;
+}
+
+#grayCard {
+  background-color: gray;
+}
+
+#biegeCard {
+  background-color: beige;
+}

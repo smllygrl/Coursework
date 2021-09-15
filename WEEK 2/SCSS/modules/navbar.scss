@@ -1,0 +1,48 @@
+@use "./../partials/palette";
+
+.nav {
+  display: flex;
+  border-bottom: 1px solid black;
+
+  &__first {
+    justify-content: space-between;
+    background-color: palette.$primary-background-colour;
+
+    &--right-group {
+      display: flex;
+      width: 30%;
+      justify-content: space-around;
+      border: none;
+    }
+  }
+
+  &__second {
+    justify-content: space-around;
+    background-color: palette.$secondary-background-colour;
+  }
+
+  &__third {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: palette.$tertiary-background-colour;
+
+    &--left-group {
+      display: flex;
+      width: 30%;
+      justify-content: space-around;
+      border: none;
+    }
+  }
+
+  &__home {
+    color: palette.$home-text-colour;
+
+    &:hover {
+      background-color: palette.$hover-colour;
+    }
+  }
+
+  &__link {
+    color: palette.$nav-text-colour;
+  }
+}
