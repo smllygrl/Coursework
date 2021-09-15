@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Natalie's Hobbies</title>
+  </head>
+  <body>
+    <h1>IT'S ALL ABOUT ME</h1>
+    <p>
+      It's eveyones favourite list master, Natalie Lovibond Hodgson, coming in
+      STRONG to tell you all about my hobbies!
+    </p>
+    <img src="catinhat.jpg" alt="a cat in a hat" />
+    <h3>My Hobbies</h3>
+    <ul>
+      <li>Reading</li>
+      <li>Trying to be a good human who makes the world nicer</li>
+      <li>Loving my cats</li>
+    </ul>
+    <h3>Learn more about my hobbies</h3>
+    <ol>
+      <li>
+        <a
+          href="https://www.ngv.vic.gov.au/program/opening-incendium-radical-library-and-press-x-the-substation/"
+          >Radical Library</a
+        >
+      </li>
+      <li>
+        <a href="https://paytherent.net.au/"
+          >Always was, always will be Aboriginal land: pay the rent/ learn why
+          you should</a
+        >
+      </li>
+      <li>
+        <a href="https://www.rover.com/blog/10-tips-help-become-best-cat-owner/"
+          >Be a great Cat parent</a
+        >
+      </li>
+    </ol>
+  </body>
+
+  <dl>
+    <dt>Reading<dt>
+      <dd> <a
+        href="https://www.ngv.vic.gov.au/program/opening-incendium-radical-library-and-press-x-the-substation/"
+        >Radical Library</a
+      >
+      <dt>Trying to be a good human who makes the world nicer<dt>
+        <dd><a href="https://paytherent.net.au/"
+          >Always was, always will be Aboriginal land: pay the rent/ learn why
+          you should</a> <dd>
+      <dt>Loving my cats<dt>
+        <dd>   <a href="https://www.rover.com/blog/10-tips-help-become-best-cat-owner/"
+          >Be a great Cat parent</a>
+
+        
+</html>
+
+

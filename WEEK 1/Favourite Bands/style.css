@@ -1,0 +1,31 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+}
+
+h3 {
+  text-align: right;
+  font-weight: lighter;
+}
+
+dt {
+  color: green;
+}
+
+dd {
+  font-weight: 600;
+}
+
+.italic-underline {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+div {
+  border: 5px solid;
+  color: black;
+}

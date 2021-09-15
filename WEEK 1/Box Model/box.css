@@ -1,0 +1,15 @@
+dt {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.box1 {
+  background-color: hotpink;
+  padding: 20px;
+  border-top: 20px solid green;
+  border-bottom: 20px solid green;
+}
+
+.outside-box {
+  border: 2px solid orange;
+}
