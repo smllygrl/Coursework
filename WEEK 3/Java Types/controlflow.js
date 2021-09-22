@@ -85,13 +85,53 @@
 // }
 // }
 
-let x = 98347;
-let y = 93487;
+// let x = 98347;
+// let y = 93487;
 
-if (x > y) {
-  console.log(`${x} is greater than ${y}`);
-} else if (x < y) {
-  console.log(`${x} is smaller than ${y}`);
-} else {
-  console.log(`${x} is equal to${y}`);
-}
+// if (x > y) {
+//   console.log(`${x} is greater than ${y}`);
+// } else if (x < y) {
+//   console.log(`${x} is smaller than ${y}`);
+// } else {
+//   console.log(`${x} is equal to${y}`);
+// }
+
+// Switch
+
+// compare to an exact value when comparing variables, there is differnt values that your variable can be and you're comparing one by one
+
+// switch (expression - variable) {
+// case [firstCase]:
+//  Block of code that is executed if case is valid or true;
+//  break;
+//  case [second Case]:
+//   Block of code that is executed if case is valid or true;
+//   default (replaces an else): Block of code that is executed is none of the case are true;
+// }
+
+// const errorCode = 2;
+
+// switch (errorCode) {
+//   case 0:
+//     console.log("Success");
+//     break;
+//   case 1:
+//     console.log("File parth broken");
+//     break;
+//   case 2:
+//     console.log("Page not found");
+// }
+
+// Ternary
+// yes/ no/ if else
+// evaluating or give an expressioin that js will process, checking is x is true or false
+
+// const x = "X";
+
+// // if (x) {
+// //   console.log("x is truthy");
+// // }
+
+// // x ? (if) console.log("x is a truthy value") : (else) console.log("x is not a truthy value")
+
+// x ? console.log("x is a truthy value") : console.log("x is not a truthy value");
