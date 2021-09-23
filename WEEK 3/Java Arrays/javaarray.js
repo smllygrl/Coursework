@@ -24,7 +24,7 @@ console.log(hobbies[0]);
 
 // if (hobbies.length > 2) {
 //   let (hobbies[0]) = hobby;
-// hobbies.shift();
+//   hobbies.shift();
 //   console.log(hobbies);
 //   console.log(hobby);
 //   else {
